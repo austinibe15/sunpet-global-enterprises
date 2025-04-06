@@ -1,1 +1,1 @@
-# sunpet-global-enterprises
+# Sunpet Global Enterprises
