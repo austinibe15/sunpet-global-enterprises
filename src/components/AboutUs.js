@@ -1,6 +1,5 @@
 import React from 'react';  
 import './AboutUs.css'; // Make sure you have this CSS file  
-import { Link } from 'react-router-dom'; // Import Link for navigation  
 
 const AboutUs = () => {  
   return (  
@@ -54,8 +53,6 @@ const AboutUs = () => {
           allowing you to navigate through our services easily. We are dedicated to providing exceptional value and building long-term partnerships with our clients.  
         </p>  
       </div>  
-
-     
     </div>  
   );  
 };  
