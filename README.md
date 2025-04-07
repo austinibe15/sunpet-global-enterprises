@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # sunpet-global-enterprises
 >>>>>>> 41bc31f970315648ef6a2c75a7cbb6875e722511
+=======
+# Sunpet Global Enterprises
+>>>>>>> 47cc6335623e368e2d09ef2cfb3cb3e66df95e22
