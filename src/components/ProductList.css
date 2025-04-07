@@ -1,0 +1,49 @@
+.product-list-container {  
+    padding: 20px;  
+    max-width: 800px;  
+    margin: auto;  
+    background-color: white;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+.product-list,  
+.partner-products-list {  
+    list-style-type: none; /* Removes default bullet points */  
+    padding: 0;  
+}  
+
+.product-list li,  
+.partner-products-list li {  
+    padding: 10px 0; /* Space between products */  
+    border-bottom: 1px solid #ddd; /* Light separator line */  
+}  
+
+.product-list li:last-child,  
+.partner-products-list li:last-child {  
+    border-bottom: none; /* Remove bottom border for the last item */  
+}  
+
+.contact-button {  
+    padding: 10px 15px;  
+    background-color: #007BFF; /* Button color */  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background 0.3s;  
+    margin: 20px 0; /* Add margin above and below the button */  
+}  
+
+.contact-button:hover {  
+    background-color: #0056b3; /* Darker shade on hover */  
+}  
+
+p {  
+    margin: 20px 0; /* Add margin around paragraphs for spacing */  
+    line-height: 1.5; /* Improved line height for better readability */  
+}  
+
+ul {  
+    margin-top: 10px; /* Add margin above unordered lists */  
+}  

@@ -1,0 +1,58 @@
+.contact-container {  
+    padding: 20px;  
+    max-width: 600px; /* Set a max width for the container */  
+    margin: auto; /* Center the container */  
+}  
+
+form {  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+label {  
+    margin-bottom: 10px; /* Space between fields */  
+}  
+
+input[type="text"],  
+input[type="email"],  
+textarea {  
+    width: 100%; /* Full width of the container */  
+    padding: 10px; /* Padding inside input fields */  
+    margin-bottom: 15px; /* Margin below each field */  
+    border-radius: 4px; /* Rounded corners */  
+    border: 1px solid #ddd; /* Light border around input fields */  
+    font-size: 16px; /* Font size for better readability */  
+}  
+
+/* Style for the textarea specifically */  
+textarea {  
+    height: 100px; /* Set a more modest height */  
+    resize: none; /* Disable manual resizing */  
+}  
+
+button {  
+    padding: 10px 15px;  
+    border: none;  
+    background-color: #007bff; /* Button color */  
+    color: white; /* Button text color */  
+    cursor: pointer; /* Pointer cursor for button */  
+    border-radius: 4px; /* Rounded corners */  
+}  
+
+button:hover {  
+    background-color: #0056b3; /* Darker shade on hover */  
+}  
+
+.thank-you-message {  
+    margin-top: 20px; /* Margin above thank you message */  
+}  
+
+.contact-info {  
+    margin-top: 20px; /* Margin above contact info */  
+}  
+
+footer {  
+    margin-top: 40px; /* Extra space above footer */  
+    padding: 15px; /* Padding in footer */  
+    width: 100%; /* Full width for footer */  
+}  

@@ -1,0 +1,36 @@
+.service-list-container {  
+    padding: 20px;  
+    max-width: 800px;  
+    margin: auto;  
+    background-color: white;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  .service-list {  
+    list-style-type: none; /* Removes default bullet points */  
+    padding: 0;  
+  }  
+  
+  .service-item {  
+    padding: 10px 0; /* Space between services */  
+    border-bottom: 1px solid #ddd; /* Light separator line */  
+  }  
+  
+  .service-item:last-child {  
+    border-bottom: none; /* Remove the bottom border for the last item */  
+  }  
+  
+  .contact-button {  
+    padding: 10px 15px;  
+    background-color: #007BFF; /* Button color */  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background 0.3s;  
+  }  
+  
+  .contact-button:hover {  
+    background-color: #0056b3; /* Darker shade on hover */  
+  }  
