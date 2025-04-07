@@ -14,14 +14,16 @@ const HomePage = () => {
     <div className="home-container">  
       {/* Hero Section with CEO Video */}  
       <div className="hero-section">  
-        <video controls width="100%" autoPlay muted>  
+        <video controls width="100%" autoPlay muted className="ceo-video">  
           <source src={ceoVideo} type="video/mp4" />  
           Your browser does not support the video tag.  
         </video>  
-        <h1>Welcome to Sunpet Global Enterprises</h1>  
-        <Link to="/aboutus">  
-          <button>Explore More</button>  
-        </Link>  
+        <div className="video-overlay">  
+          <h1>Welcome to Sunpet Global Enterprises</h1>  
+          <Link to="/aboutus">  
+            <button className="explore-button">Explore More</button>  
+          </Link>  
+        </div>  
       </div>  
 
       <h2>Certificate of Incorporation</h2>  
@@ -80,12 +82,12 @@ function App() {
           <Route path="/services" element={<ServiceList />} />  
           <Route path="/products" element={<ProductList />} />  
           <Route path="/contact" element={<Contact />} />  
-          <Route path="/aboutus" element={<AboutUs />} /> {/* Render the About Us component here */}  
+          <Route path="/aboutus" element={<AboutUs />} />   
         </Routes>  
         <footer className="bg-dark text-white text-center p-3 mt-4">  
           <p>&copy; {new Date().getFullYear()} Sunpet Global Enterprises. All rights reserved.</p>  
         </footer>  
-      </div>  
+      </div>   
     </Router>  
   );  
 }  
