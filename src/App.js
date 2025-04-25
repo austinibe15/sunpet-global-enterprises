@@ -12,18 +12,21 @@ import ceoVideo from './assets/Welcome to Sunpet Global Enterprises.mp4'; // Pat
 const HomePage = () => {  
   return (  
     <div className="home-container">  
-      {/* Hero Section with CEO Video */}  
+      {/* Hero Section with Welcome Message and CEO Video */}  
       <div className="hero-section">  
-        <video controls width="100%" autoPlay muted className="ceo-video">  
-          <source src={ceoVideo} type="video/mp4" />  
-          Your browser does not support the video tag.  
-        </video>  
-        <div className="video-overlay">  
+        <div className="welcome-section">  
           <h1>Welcome to Sunpet Global Enterprises</h1>  
-          <Link to="/aboutus">  
-            <button className="explore-button">Explore More</button>  
-          </Link>  
+          <h2>Your trusted partner in the oil and gas industry.</h2> {/* Added a subheading */}  
         </div>  
+        <div className="video-section">  
+          <video controls width="100%" autoPlay muted className="ceo-video">  
+            <source src={ceoVideo} type="video/mp4" />  
+            Your browser does not support the video tag.  
+          </video>  
+        </div>  
+        <Link to="/aboutus">  
+          <button className="explore-button">Explore More</button>  
+        </Link>  
       </div>  
 
       <h2>Certificate of Incorporation</h2>  
